@@ -1,0 +1,31 @@
+patterns
+
+import java.util.*;
+ public class hello
+ {
+
+    public static void main(String[] args){
+
+       int num=6;
+      for (int row = num; row >= 1; row--) {
+        for (int col = 1; col <= row; col++) {
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    
+    // Second part: Increasing pattern without adding a newline at the end
+    for (int row = 2; row <= num; row++) {
+        for (int col = 1; col <= row; col++) {
+            System.out.print("*");
+        }
+        if (row != num) {
+            System.out.println();
+        }
+
+    }
+}
+ }
+
+ 
+
